@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2><strong>Home page</strong></h2>
+    <ul>
+        <li><a href="{{ url_for('index')}}">Home</a></li>
+        <li><a href="{{ url_for('login')}}">Login</a></li>
+        <li><a href="{{ url_for('register')}}">Register</a></li>
+        <li><a href="{{ url_for('QandA')}}">Q&A</a></li>
+        <li><a href="{{ url_for('about')}}">About</a></li>
+        <li><a href="{{ url_for('QandA')}}">About</a></li>
+    </ul>
+{% endblock %}
